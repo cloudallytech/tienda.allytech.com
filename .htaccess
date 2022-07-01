@@ -1,0 +1,10 @@
+## Default .htaccess file
+Redirect 301 "https://tienda.allytech.com/index.php?route=information/contact" "https://www.allytech.com/contacto/"
+
+# Redriect https
+RewriteEngine On
+
+
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+

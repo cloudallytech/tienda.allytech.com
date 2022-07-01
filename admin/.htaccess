@@ -1,0 +1,22 @@
+order deny,allow
+deny from all
+allow from 127.0.0.1
+allow from 152.169.194.222
+allow from 190.210.230.134
+allow from 181.31.182.51
+allow from 190.247.68.124
+allow from 190.191.242.163
+allow from 190.48.137.235
+allow from 181.46.138.41
+allow from 190.191.226.129
+allow from 181.46.138.42
+allow from 190.48.139.72
+allow from 181.46.138.35
+allow from 152.169.63.43
+allow from 190.48.136.157
+allow from 152.169.206.138
+allow from 190.48.137.184
+allow from 201.235.65.180 
+allow from 181.167.142.132
+
+
